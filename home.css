@@ -649,7 +649,7 @@
   display: flex;
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
-  margin-top: var(--dl-space-space-fourunits);
+  margin-top: var(--dl-space-space-halfunit);
   align-items: flex-start;
   padding-top: var(--dl-space-space-fiveunits);
   padding-left: var(--dl-space-space-fiveunits);
@@ -671,8 +671,8 @@
   text-transform: uppercase;
 }
 .home-projects-container {
-  flex: 0 0 auto;
   width: 1098px;
+  height: 747px;
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
@@ -682,7 +682,7 @@
 .home-project {
   flex: 0 0 auto;
   width: 220px;
-  height: 450px;
+  height: 600px;
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
@@ -692,17 +692,26 @@
   width: 220px;
   object-fit: cover;
 }
+.home-link3 {
+  color: rgb(0, 0, 245);
+  font-size: 16px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  text-decoration: none;
+}
 .home-text096 {
   color: rgb(0, 0, 245);
   width: 220px;
   font-size: 24px;
   align-self: center;
-  margin-top: var(--dl-space-space-unit);
+  margin-top: var(--dl-space-space-halfunit);
   font-weight: 700;
   line-height: 1.4;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
 }
 .home-text097 {
+  color: #0000f5;
   font-style: normal;
 }
 .home-text098 {
@@ -723,7 +732,7 @@
 .home-project1 {
   flex: 0 0 auto;
   width: 220px;
-  height: 450px;
+  height: 600px;
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
@@ -733,15 +742,23 @@
   width: 220px;
   object-fit: cover;
 }
+.home-link4 {
+  color: rgb(0, 0, 245);
+  font-size: 16px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  text-decoration: none;
+}
 .home-text102 {
   color: rgb(0, 0, 245);
   width: 220px;
   font-size: 24px;
   align-self: center;
-  margin-top: var(--dl-space-space-unit);
+  margin-top: var(--dl-space-space-halfunit);
   font-weight: 700;
   line-height: 1.4;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
 }
 .home-text103 {
   font-style: normal;
@@ -764,7 +781,7 @@
 .home-project2 {
   flex: 0 0 auto;
   width: 220px;
-  height: 450px;
+  height: 600px;
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
@@ -774,15 +791,23 @@
   width: 220px;
   object-fit: cover;
 }
+.home-link5 {
+  color: rgb(0, 0, 245);
+  font-size: 16px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  text-decoration: none;
+}
 .home-text108 {
   color: rgb(0, 0, 245);
   width: 220px;
   font-size: 24px;
   align-self: center;
-  margin-top: var(--dl-space-space-unit);
+  margin-top: var(--dl-space-space-halfunit);
   font-weight: 600;
   line-height: 1.4;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
 }
 .home-text109 {
   font-weight: 700;
@@ -806,7 +831,7 @@
 .home-project3 {
   flex: 0 0 auto;
   width: 220px;
-  height: 450px;
+  height: 600px;
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
@@ -816,15 +841,23 @@
   width: 220px;
   object-fit: cover;
 }
+.home-link6 {
+  color: rgb(0, 0, 245);
+  font-size: 16px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  text-decoration: none;
+}
 .home-text114 {
   color: rgb(0, 0, 245);
   width: 220px;
   font-size: 24px;
   align-self: center;
-  margin-top: var(--dl-space-space-unit);
+  margin-top: var(--dl-space-space-halfunit);
   font-weight: 700;
   line-height: 1.4;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
 }
 .home-text115 {
   font-style: normal;
@@ -928,7 +961,7 @@
   font-size: 14px;
   line-height: 21px;
 }
-.home-link3 {
+.home-link7 {
   display: flex;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fiveunits);
@@ -1260,7 +1293,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .home-link3 {
+  .home-link7 {
     justify-content: center;
   }
 }
